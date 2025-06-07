@@ -15,7 +15,7 @@ from typing import List, Tuple, Dict, Any
 from datetime import datetime
 
 class DetectionAnalyzer:
-    def __init__(self, model_path: str, conf_threshold: float = 0.5, nms_threshold: float = 0.4):
+    def __init__(self, model_path: str, conf_threshold: float = 0.3, nms_threshold: float = 0.4):
         """
         Initialize the Detection Analyzer with custom ONNX model
         
