@@ -360,7 +360,7 @@ class DetectionAnalyzer:
 
 def main():
     # Configuration
-    model_path = "best.onnx"
+    model_path = "best0706.onnx"
     input_folder = "detection"
     output_report = "detection_analysis_report.md"
     confidence_threshold = 0.5
